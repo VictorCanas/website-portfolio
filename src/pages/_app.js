@@ -8,7 +8,7 @@ import 'typeface-dm-sans';
 import '../theme/styles.css';
 import 'antd/dist/antd.css';
 import '../index.css';
-import { wrapper } from "../config-store";
+// import { wrapper } from "../config-store";
 // import { useDispatch } from 'react-redux';
 // import { signInWithEmail } from 'modules/auth/actions';
 
@@ -24,4 +24,5 @@ const CustomApp = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
 }
 
-export default wrapper.withRedux(CustomApp);
+// export default wrapper.withRedux(CustomApp);
+export default CustomApp;
