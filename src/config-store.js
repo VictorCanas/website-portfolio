@@ -8,17 +8,12 @@ import thunkMiddleware from "redux-thunk";
 import reducer from "./reducers";
 import { createWrapper } from "next-redux-wrapper";
 
-const composeEnhancers =
-  (process.env.NODE_ENV === "development"
-    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-    : null) || compose;
-
 const bindMiddleware = (middleware) => {
   if (process.env.NODE_ENV !== "production") {
     const { composeWithDevTools } = require("redux-devtools-extension");
     return composeWithDevTools(applyMiddleware(...middleware));
   }
-  const enhancer = composeEnhancers(applyMiddleware(...middleware));
+  const enhancer = compose(applyMiddleware(...middleware));
   return enhancer;
 };
 
@@ -38,3 +33,4 @@ const initStore = () => {
 };
 
 export const wrapper = createWrapper(initStore);
+
