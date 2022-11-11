@@ -1,17 +1,21 @@
 import React, { useState, useEffect } from "react";
+//useSWR allows the use of SWR inside function components
+import useSWR from 'swr';
 
+//Write a fetcher function to wrap the native fetch function and return the result of a call to url in json format
+const fetcher = (url) => fetch(url).then((res) => res.json());
 // Condense code to add a json format for projects 
 
 export default function Projects() {
-  const [projects, setProjects] = useState([]);
+  //Set up SWR to run the fetcher function when calling "/api/staticdata"
+  //There are 3 possible states: (1) loading when data is null (2) ready when the data is returned (3) error when there was an error fetching the data
+  const { data, error } = useSWR('/api/projects', fetcher);
 
-  useEffect(() => {
-    fetch("projects.json")
-      .then((res) => res.json())
-      .then((res) => {
-        setProjects(res?.projects || []);
-      });
-  }, []);
+  //Handle the error state
+  if (error) return <div>Failed to load</div>;
+  //Handle the loading state
+  if (!data) return <div>Loading...</div>;
+  //Handle the ready state and display the result contained in the data object mapped to the structure of the json file
 
   return (
     <section
@@ -25,7 +29,7 @@ export default function Projects() {
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
-          {projects.map((item) => (
+          {data.projects && data.projects.map((item) => (
             <article
               key={item.id}
               className="flex flex-col rounded-lg dark:bg-gray-900"
