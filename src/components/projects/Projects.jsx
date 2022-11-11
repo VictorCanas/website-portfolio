@@ -62,7 +62,7 @@ export default function Projects() {
                 >
                   {item.title}
                 </a>
-                <h3 className="flex-1 py-2 text-lg font-semibold leading-snug">
+                <h3 className="flex-1 py-2 text-lg font-semibold dark:text-gray-50 leading-snug">
                   {item.desc}
                 </h3>
                 <div className="card-actions">
