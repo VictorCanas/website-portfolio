@@ -1,5 +1,35 @@
 import React from "react";
 
+const SKILLS = [
+  "HTML5",
+  "CSS3",
+  "Scss",
+  "Tailwind CSS",
+  "jQuery",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Gatsby",
+  "NextJS",
+  "Redux",
+  "React Query",
+  "React Native",
+  "Jest",
+  "Cypress",
+  "GraphQL",
+  "Apollo",
+  "Prisma",
+  "Firebase",
+  "AWS Serverless",
+  "Vercel",
+  "Netlify",
+  "WordPress",
+  "Divi",
+  "Adobe Photoshop",
+  "Adobe XD",
+  "Figma",
+];
+
 export default function About() {
   return (
     <section id={"about"} className="dark:bg-gray-800 dark:text-gray-100">
@@ -46,168 +76,16 @@ export default function About() {
               Skills
             </p>
             <div className="flex flex-wrap space-y-2 space-x-3 border-t border-dashed dark:border-gray-400">
-              <a
-                rel="noopener noreferrer"
-                className="mt-2 ml-3 px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                HTML5
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                CSS3
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Scss
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Tailwind CSS
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                jQuery
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                JavaScript
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                TypeScript
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                React
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Gatsby
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                NextJS
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Redux
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                React Query
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                React Native
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Jest
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Cypress
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                GraphQL
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Apollo
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Prisma
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Firebase
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                AWS Serverless
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Vercel
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Netlify
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                WordPress
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Divi
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Adobe Photoshop
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Adobe XD
-              </a>
-              <a
-                rel="noopener noreferrer"
-                className="px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
-              >
-                Figma
-              </a>
+            {/* Added a JSON format for the skills so it can respresent better fetching data from API */}
+              {SKILLS.map((item) => (
+                <a
+                  key={item}
+                  rel="noopener noreferrer"
+                  className="mt-2 ml-3 px-4 py-1 font-semibold border rounded dark:border-gray-100 dark:text-gray-100"
+                >
+                  {item}
+                </a>
+              ))}
             </div>
           </div>
         </div>

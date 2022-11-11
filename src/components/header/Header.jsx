@@ -16,7 +16,7 @@ export default function Header() {
             Victor Canas
           </h1>
           <h3 className="dark:text-violet-400 text-5xl font-bold leading-none sm:text-6xl">
-            Senior Software Engineer
+            Full Stack Developer
           </h3>
           <p className="mt-6 mb-8 text-lg sm:mb-12">
             Passionate about web design and user experience
@@ -38,7 +38,11 @@ export default function Header() {
                 />
               </svg>
               <span className="flex flex-col items-start ml-4 leading-none">
-                <a href="VictorCanas.pdf" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="VictorCanas.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span className="text-lg font-semibold rounded dark:bg-violet-500 dark:text-gray-900">
                     CV Resume
                   </span>

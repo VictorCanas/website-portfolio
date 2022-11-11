@@ -27,7 +27,7 @@ Built with:
 │   |   ├── contact             # Contact section of website 
 │   |   └── footer              # Footer section of website 
 │   |   └── header              # Header section of website 
-│   |   └── nav             	# Nav section of website 
+│   |   └── nav             	  # Nav section of website 
 │   |   └── projects            # Projects section of website 
 │   └── module/auth
 │   ├── pages                   # Folder
@@ -39,9 +39,9 @@ Built with:
 └── netlify.toml                # configure netlify 
 └── next-sitemap.js             # sitemap for google 
 └── package-lock.json           # NPM Package-locl //exact ttree indentical tree
-└── package.json           		# NPM  //basic info on project 
+└── package.json           		  # NPM  //basic info on project 
 └── postcss.conifg.json         # Able to customize css 
-└── README.md           		# Document file
+└── README.md           		    # Document file
 └── tailwind.config.js          # configure tailwind CSS like plugins etc
-└── vercel.json          		# configure vercel 
-└── yarn.lock        			# yarn depencies 
+└── vercel.json          		    # configure vercel 
+└── yarn.lock        			      # yarn depencies 

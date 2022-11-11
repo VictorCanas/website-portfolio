@@ -6,7 +6,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="p-4 dark:bg-gray-900 dark:text-gray-100 sticky top-0 z-50">
+    <nav className="p-4 bg-violet-400 dark:bg-gray-900 dark:text-gray-100 sticky top-0 z-50">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a
           rel="noopener noreferrer"
@@ -39,7 +39,7 @@ const Nav = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li className="flex">
               <a
                 rel="noopener noreferrer"

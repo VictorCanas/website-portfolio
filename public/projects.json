@@ -1,0 +1,55 @@
+// JSON file for projects
+
+{
+  "projects": [
+    {
+      "id": 1,
+      "href": "http://thedraftingshoppe.com",
+      "title": "The Drafting shoppe",
+      "img": "https://i.ibb.co/Hxj3KdP/1.jpg",
+      "desc": "React and Node.js based eCommerce platform",
+      "stacks": [
+        "Node.js",
+        "React",
+        "Redux",
+        "Express",
+        "Babel",
+        "Webpack 4",
+        "Mongo DB"
+      ]
+    },
+    {
+      "id": 2,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "React Native Startup App",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 3,
+      "href": "https://fornopiombo.com/",
+      "title": "Forno Piombo",
+      "img": "https://i.ibb.co/s9yP1bk/4.jpg",
+      "desc": "Shopify-based website",
+      "stacks": ["HTML5", "CSS3", "Scss", "jQuery", "Shopify"]
+    },
+    {
+      "id": 4,
+      "href": "https://www.petplate.com/",
+      "title": "Petplate",
+      "img": "https://i.ibb.co/zPGmbsm/3.jpg",
+      "desc": "React website",
+      "stacks": ["React", "NextJS", "Emotion.JS", "GraphQL", "Apollo GraphQL"]
+    }
+  ]
+}
