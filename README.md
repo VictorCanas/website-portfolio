@@ -1,16 +1,3 @@
-Personal Portfolio Website build with Next.js, React, and Tailwind CSS
-
-Built with:
-
-* Next.js
-* React
-* Tailwind CSS
-
-
-
-## Application Structure
-
-```
 .
 ├── .next                       # Project and build configurations
 ├── node_modules                # Modules install by NPM 
@@ -45,4 +32,3 @@ Built with:
 └── tailwind.config.js          # configure tailwind CSS like plugins etc
 └── vercel.json          		    # configure vercel 
 └── yarn.lock        			      # yarn depencies 
-
