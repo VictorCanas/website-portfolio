@@ -45,3 +45,4 @@ Built with:
 └── tailwind.config.js          # configure tailwind CSS like plugins etc
 └── vercel.json          		    # configure vercel 
 └── yarn.lock        			      # yarn depencies 
+
