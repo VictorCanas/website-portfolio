@@ -77,11 +77,11 @@ export default function Contact() {
         </div>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          novalidate=""
+          noValidate=""
           className="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow dark:bg-gray-900 ng-untouched ng-pristine ng-valid"
         >
           <div>
-            <label for="name" className="block mb-1 ml-1">
+            <label htmlFor="name" className="block mb-1 ml-1">
               Name
             </label>
             <input
@@ -99,7 +99,7 @@ export default function Contact() {
             )}
           </div>
           <div>
-            <label for="email" className="block mb-1 ml-1">
+            <label htmlFor="email" className="block mb-1 ml-1">
               Email
             </label>
             <input
@@ -122,7 +122,7 @@ export default function Contact() {
             )}
           </div>
           <div>
-            <label for="message" className="block mb-1 ml-1">
+            <label htmlFor="message" className="block mb-1 ml-1">
               Message
             </label>
             <textarea
