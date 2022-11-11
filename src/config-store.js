@@ -1,8 +1,7 @@
 import createSagaMiddleware from "redux-saga";
 import rootSaga from "./sagas";
 import { createLogger } from "redux-logger";
-const loggerMiddleware =
-  process.env.NODE_ENV === "development" ? createLogger() : {};
+
 const sagaMiddleware = createSagaMiddleware();
 import { createStore, applyMiddleware, compose } from "redux";
 import thunkMiddleware from "redux-thunk";
@@ -24,9 +23,15 @@ const bindMiddleware = (middleware) => {
 };
 
 const initStore = () => {
+  const middleWares = [thunkMiddleware, sagaMiddleware];
+
+  if (process.env.NODE_ENV === "development") {
+    const loggerMiddleware = createLogger();
+    middleWares.push(loggerMiddleware);
+  }
   const store = createStore(
     reducer,
-    bindMiddleware([thunkMiddleware, sagaMiddleware, loggerMiddleware])
+    bindMiddleware(middleWares)
   );
   sagaMiddleware.run(rootSaga);
   return store;
