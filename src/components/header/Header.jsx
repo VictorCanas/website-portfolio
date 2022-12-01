@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function Header() {
+  const scrollTo = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  };
+  
   return (
     <section id={"home"} className="dark:bg-gray-800 dark:text-gray-100">
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
