@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="dark:bg-gray-900 dark:text-gray-50">
       <div className="container flex flex-col p-4 mx-auto md:p-8 lg:flex-row divide-gray-400">
         <span className="dark:text-gray-400 self-center py-6 space-y-4 text-center sm:flex sm:space-y-0 sm:justify-around sm:space-x-4 lg:flex-1 lg:justify-start">
-          © Copyright 2022. Made by Victor Canas
+          © Copyright 2023. Made by Victor Canas
         </span>
         <div className="flex flex-col justify-center pt-6 lg:pt-0">
           <div className="flex justify-center space-x-4">

@@ -56,7 +56,6 @@ export default function Header() {
             <a
               rel="noopener noreferrer"
               onClick={() => scrollTo("projects")}
-              href="#"
               className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-100"
             >
               Projects
