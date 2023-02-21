@@ -64,7 +64,7 @@ export default function About() {
             </p>
             <p className="mt-3 text-lg dark:text-gray-400">
               {" "}
-              Over the past 4 years I have done{" "}
+              Over the past 5 years I have done{" "}
               <span className="font-medium dark:text-gray-50">remote</span>{" "}
               projects for clients inside a Digital agency, consulted for a
               startup, and collaborated with talented people to create{" "}

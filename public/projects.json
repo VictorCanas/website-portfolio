@@ -9,31 +9,16 @@
       "img": "https://i.ibb.co/Hxj3KdP/1.jpg",
       "desc": "React and Node.js based eCommerce platform",
       "stacks": [
-        "Node.js",
-        "React",
-        "Redux",
-        "Express",
-        "Babel",
-        "Webpack 4",
-        "Mongo DB"
+        "Node.js","React","Redux","Express","Babel","Webpack 4","Mongo DB"
       ]
     },
     {
       "id": 2,
-      "href": "https://redifyinc.com",
+      "href": "https://redify.app.link/G6TYb3Hmflb",
       "title": "Redify Inc",
       "img": "https://i.ibb.co/NS2N71f/2.jpg",
       "desc": "React Native Startup App",
-      "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
-      ]
+      "stacks": ["React Native","Redux","Express","Babel","Jest","MySQL","Socket.io"]
     },
     {
       "id": 3,
