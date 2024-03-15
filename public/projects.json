@@ -1,5 +1,3 @@
-// JSON file for projects
-
 {
   "projects": [
     {
@@ -54,22 +52,6 @@
     },
     {
       "id": 4,
-      "href": "https://iglesiadediosadonai.com/",
-      "title": "Iglesia de Dios Adonai",
-      "img": "https://i.ibb.co/8dnDhKX/13.png",
-      "desc": "Church Website",
-      "stacks": [
-        "Subsplash",
-        "Website",
-        "Church Photos",
-        "Welcome Video",
-        "Social Media",
-        "Consulting/Training",
-        "SEO"
-      ]
-    },
-    {
-      "id": 5,
       "href": "https://iglesiadediosadonai.com/",
       "title": "Iglesia de Dios Adonai",
       "img": "https://i.ibb.co/8dnDhKX/13.png",
