@@ -4,7 +4,7 @@
       "id": 1,
       "href": "https://www.larocarva.com/",
       "title": "Iglesia La Roca ",
-      "img": "https://ibb.co/m8S8KZ5",
+      "img": "https://i.ibb.co/C2W2yCK/1.png",
       "desc": "Church Website and App",
       "stacks": [
         "Subsplash",
@@ -21,7 +21,7 @@
       "id": 2,
       "href": "https://centrodeadoracionva.com/",
       "title": "Centro de Adoracion",
-      "img": "https://i.ibb.co/fDqZZbM/11.png",
+      "img": "https://i.ibb.co/phbztFf/2.png",
       "desc": "Church Website and App",
       "stacks": [
         "Subsplash",
@@ -38,7 +38,7 @@
       "id": 3,
       "href": "https://iglesiadediosrenacer.com/",
       "title": "Iglesia de Dios Renacer",
-      "img": "https://i.ibb.co/X2GsQzZ/12.png",
+      "img": "https://i.ibb.co/94GqBg2/3.png",
       "desc": "Church Website",
       "stacks": [
         "Subsplash",
@@ -54,7 +54,7 @@
       "id": 4,
       "href": "https://iglesiadediosadonai.com/",
       "title": "Iglesia de Dios Adonai",
-      "img": "https://i.ibb.co/8dnDhKX/13.png",
+      "img": "https://i.ibb.co/DCNtCzb/4.png",
       "desc": "Church Website",
       "stacks": [
         "Subsplash",
@@ -70,7 +70,7 @@
       "id": 5,
       "href": "http://thedraftingshoppe.com",
       "title": "The Drafting shoppe",
-      "img": "https://i.ibb.co/Hxj3KdP/1.jpg",
+      "img": "https://i.ibb.co/YXrzrRv/5.png",
       "desc": "React and Node.js based eCommerce platform",
       "stacks": [
         "React",
@@ -86,119 +86,75 @@
       "id": 6,
       "href": "https://redifyinc.com",
       "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "img": "https://i.ibb.co/dc5zJMh/6.png",
       "desc": "Website Startup App and Social Media Marketing",
-      "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
-      ]
+      "stacks": ["Wordpress", "Monsterinsights", "React", "GoDaddy"]
     },
     {
       "id": 7,
-      "href": "https://redifyinc.com",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "Website Startup App and Social Media Marketing",
-      "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
-      ]
+      "href": "https://crossexamined.org",
+      "title": "Crossexamined.org",
+      "img": "https://i.ibb.co/9sw8qz9/7.png",
+      "desc": "Website Management and Social Media",
+      "stacks": ["Wordpress", "Divi", "Yoast SEO", "WP Plugins", "Subsplash"]
     },
     {
       "id": 8,
-      "href": "https://redifyinc.com",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "Website Startup App and Social Media Marketing",
-      "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
-      ]
+      "href": "https://lacasadelasalud.org/",
+      "title": "La Casa de la Salud",
+      "img": "https://i.ibb.co/TgHvGjq/8.png",
+      "desc": "Website Design",
+      "stacks": ["Wordpress", "Elementor", "GiveWP", "GoDaddy"]
     },
     {
       "id": 9,
-      "href": "https://redifyinc.com",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "Website Startup App and Social Media Marketing",
-      "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
-      ]
+      "href": "https://sarongranite.com",
+      "title": "Saron Granite",
+      "img": "https://i.ibb.co/2vhJkrw/9.png",
+      "desc": "Website Design",
+      "stacks": ["Wordpress", "Divi", "GoDaddy"]
     },
     {
       "id": 10,
-      "href": "https://redifyinc.com",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "Website Startup App and Social Media Marketing",
+      "href": "https://www.shieldroofingva.com",
+      "title": "Shield Roofing VA",
+      "img": "https://i.ibb.co/GRrgKMq/10.png",
+      "desc": "Website Design and Branding",
       "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
+        "Squarespace 7.1",
+        "Fluid Engine",
+        "Developer Mode",
+        "Git",
+        "Branding"
       ]
     },
     {
       "id": 11,
-      "href": "https://redifyinc.com",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "Website Startup App and Social Media Marketing",
+      "href": "https://www.hamburgerpartyrentals.com",
+      "title": "Hamburger Party Rentals",
+      "img": "https://i.ibb.co/HqPDsMG/11.png",
+      "desc": "Website Design",
       "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
-        "MySQL",
-        "Socket.io"
+        "Squarespace 7.0",
+        "E-commerce",
+        "GoDaddy",
+        "Responsive Design"
       ]
     },
     {
       "id": 12,
-      "href": "https://redifyinc.com",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "Website Startup App and Social Media Marketing",
+      "href": "https://mastermind.com/",
+      "title": "Coaching Academy",
+      "img": "https://i.ibb.co/7WL2MVp/12.png",
+      "desc": "E-learning Platform for Mastermind.com",
       "stacks": [
-        "React Native",
-        "Redux",
-        "Express",
-        "Babel",
-        "Jest",
-        "API",
+        "React",
+        "Next.js",
+        "Node.js",
+        "JavaScript",
         "MySQL",
-        "Socket.io"
+        "API",
+        "Git"
       ]
     }
   ]
