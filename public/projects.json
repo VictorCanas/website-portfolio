@@ -1,3 +1,4 @@
+
 {
   "projects": [
     {
@@ -68,18 +69,137 @@
     },
     {
       "id": 5,
-      "href": "https://iglesiadediosadonai.com/",
-      "title": "Iglesia de Dios Adonai",
-      "img": "https://i.ibb.co/8dnDhKX/13.png",
-      "desc": "Church Website",
+      "href": "http://thedraftingshoppe.com",
+      "title": "The Drafting shoppe",
+      "img": "https://i.ibb.co/Hxj3KdP/1.jpg",
+      "desc": "React and Node.js based eCommerce platform",
       "stacks": [
-        "Subsplash",
-        "Website",
-        "Church Photos",
-        "Welcome Video",
-        "Social Media",
-        "Consulting/Training",
-        "SEO"
+        "React",
+        "Node.js",
+        "Redux",
+        "Express",
+        "Babel",
+        "Webpack 4",
+        "Mongo DB"
+      ]
+    },
+    {
+      "id": 6,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 7,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 8,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 9,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 10,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 11,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
+      ]
+    },
+    {
+      "id": 12,
+      "href": "https://redifyinc.com",
+      "title": "Redify Inc",
+      "img": "https://i.ibb.co/NS2N71f/2.jpg",
+      "desc": "Website Startup App and Social Media Marketing",
+      "stacks": [
+        "React Native",
+        "Redux",
+        "Express",
+        "Babel",
+        "Jest",
+        "API",
+        "MySQL",
+        "Socket.io"
       ]
     }
   ]
