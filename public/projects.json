@@ -1,48 +1,86 @@
-
 {
   "projects": [
     {
       "id": 1,
-      "href": "https://www.larocarva.com",
-      "title": "Iglesia La Roca",
+      "href": "https://www.larocarva.com/",
+      "title": "Iglesia La Roca ",
       "img": "https://i.ibb.co/ys2kZbp/10.png",
       "desc": "Church Website and App",
       "stacks": [
-        "Subsplash","Website","Mobile Application","Church Photos","Welcome Video","Social Media","Consulting/Training", "SEO"
+        "Subsplash",
+        "Website",
+        "Mobile Application",
+        "Church Photos",
+        "Welcome Video",
+        "Social Media",
+        "Consulting/Training",
+        "SEO"
       ]
     },
     {
       "id": 2,
-      "href": "https://redify.app.link/G6TYb3Hmflb",
-      "title": "Redify Inc",
-      "img": "https://i.ibb.co/NS2N71f/2.jpg",
-      "desc": "React Native Startup App",
-      "stacks": ["React Native","Redux","Express","Babel","Jest","MySQL","Socket.io"]
+      "href": "https://centrodeadoracionva.com/",
+      "title": "Centro de Adoracion",
+      "img": "https://i.ibb.co/fDqZZbM/11.png",
+      "desc": "Church Website and App",
+      "stacks": [
+        "Subsplash",
+        "Website",
+        "Mobile Application",
+        "Church Photos",
+        "Welcome Video",
+        "Social Media",
+        "Consulting/Training",
+        "SEO"
+      ]
     },
     {
       "id": 3,
-      "href": "https://fornopiombo.com/",
-      "title": "Forno Piombo",
-      "img": "https://i.ibb.co/s9yP1bk/4.jpg",
-      "desc": "Shopify-based website",
-      "stacks": ["HTML5", "CSS3", "Scss", "jQuery", "Shopify"]
+      "href": "https://iglesiadediosrenacer.com/",
+      "title": "Iglesia de Dios Renacer",
+      "img": "https://i.ibb.co/X2GsQzZ/12.png",
+      "desc": "Church Website",
+      "stacks": [
+        "Subsplash",
+        "Website",
+        "Church Photos",
+        "Welcome Video",
+        "Social Media",
+        "Consulting/Training",
+        "SEO"
+      ]
     },
     {
       "id": 4,
-      "href": "https://www.petplate.com/",
-      "title": "Petplate",
-      "img": "https://i.ibb.co/zPGmbsm/3.jpg",
-      "desc": "React website",
-      "stacks": ["React", "NextJS", "Emotion.JS", "GraphQL", "Apollo GraphQL"]
+      "href": "https://iglesiadediosadonai.com/",
+      "title": "Iglesia de Dios Adonai",
+      "img": "https://i.ibb.co/8dnDhKX/13.png",
+      "desc": "Church Website",
+      "stacks": [
+        "Subsplash",
+        "Website",
+        "Church Photos",
+        "Welcome Video",
+        "Social Media",
+        "Consulting/Training",
+        "SEO"
+      ]
+    },
+    {
+      "id": 5,
+      "href": "https://iglesiadediosadonai.com/",
+      "title": "Iglesia de Dios Adonai",
+      "img": "https://i.ibb.co/8dnDhKX/13.png",
+      "desc": "Church Website",
+      "stacks": [
+        "Subsplash",
+        "Website",
+        "Church Photos",
+        "Welcome Video",
+        "Social Media",
+        "Consulting/Training",
+        "SEO"
+      ]
     }
   ]
 }
-
-
-
-
-
-
-
-
-
