@@ -12,7 +12,7 @@ const Nav = () => {
           rel="noopener noreferrer"
           href="#"
           aria-label="Back to homepage"
-          className="flex items-center p-2 text-white"
+          className="flex items-center p-1 text-white"
         >
           Victor Canas
         </a>

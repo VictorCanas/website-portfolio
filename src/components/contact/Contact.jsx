@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import { toast } from "react-toastify";
 
-// Added working functionality to the contact form to recieve message 
+// Added working functionality to the contact form to recieve message
 
 export default function Contact() {
   const {
@@ -68,8 +68,8 @@ export default function Contact() {
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
               </svg>
               <span>
-                <a href="mailto: ivictorcanas@gmail.com">
-                  ivictorcanas@gmail.com
+                <a href="mailto: victorcanas@gmail.com">
+                  victorcanas@gmail.com
                 </a>
               </span>
             </p>

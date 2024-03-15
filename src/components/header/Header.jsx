@@ -4,7 +4,7 @@ export default function Header() {
   const scrollTo = (id) => {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
   };
-  
+
   return (
     <section id={"home"} className="dark:bg-gray-800 dark:text-gray-100">
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
@@ -19,11 +19,12 @@ export default function Header() {
           <h1 className="text-5xl text-white font-bold leading-none sm:text-6xl">
             Victor Canas
           </h1>
-          <h3 className="dark:text-violet-400 text-5xl font-bold leading-none sm:text-6xl">
-            Full Stack Developer
+          <h3 className="dark:text-violet-400 text-3xl font-bold leading-none sm:text-6xl">
+            Freelance Digital Strategist & Web Designer
           </h3>
           <p className="mt-6 mb-8 text-lg sm:mb-12">
-            Passionate about web design and user experience
+            Passionate about empowering churches and businesses with innovative
+            digital solutions
           </p>
           <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <button className="inline-flex items-center px-6 py-3 rounded-lg dark:bg-violet-500 dark:text-gray-900">
@@ -43,12 +44,12 @@ export default function Header() {
               </svg>
               <span className="flex flex-col items-start ml-4 leading-none">
                 <a
-                  href="VictorCanas.pdf"
+                  href="Victor_WebDesigner_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <span className="text-lg font-semibold rounded dark:bg-violet-500 dark:text-gray-900">
-                    CV Resume
+                    Resume
                   </span>
                 </a>
               </span>
