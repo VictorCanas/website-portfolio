@@ -1,37 +1,32 @@
 import React from "react";
 
 const SKILLS = [
+  "Web Design",
+  "Social Media",
+  "Graphic Design",
+  "Digital Marketing",
+  "Information Technology",
+  "Programming",
   "HTML5",
-  "CSS3",
-  "Scss",
-  "Tailwind CSS",
-  "jQuery",
+  "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Gatsby",
-  "NextJS",
-  "Redux",
-  "React Query",
-  "React Native",
-  "Jest",
-  "Cypress",
-  "GraphQL",
-  "Apollo",
-  "Node",
-  "Express",
-  "Prisma",
-  "MongoDB",
-  "Git",
-  "Firebase",
-  "AWS Serverless",
-  "Vercel",
-  "Netlify",
-  "WordPress",
-  "Divi",
+  "Next.JS",
+  "Subsplash",
+  "Wordpress",
+  "Squarespace 7.1",
+  "Wix",
+  "UI/Visual Design",
   "Adobe Photoshop",
-  "Adobe XD",
-  "Figma",
+  "Adobe After Effects",
+  "Final Cut Pro",
+  "Git",
+  "Vercel",
+  "SEO",
+  "Notion",
+  "Asana",
+  "Monday.com",
+  "Slack",
 ];
 
 export default function About() {
@@ -55,7 +50,7 @@ export default function About() {
               </span>{" "}
               and I'm a{" "}
               <span className="font-medium dark:text-gray-50">
-                Full Stack Developer
+                Freelance Digital Strategist & Web Designer
               </span>{" "}
               located in Richmond,VA. I am graduate of Liberty University with a
               Bachelors of Science in IT: Web and mobile programming, and also
@@ -64,14 +59,16 @@ export default function About() {
             </p>
             <p className="mt-3 text-lg dark:text-gray-400">
               {" "}
-              Over the past 5 years I have done{" "}
-              <span className="font-medium dark:text-gray-50">remote</span>{" "}
-              projects for clients inside a Digital agency, consulted for a
-              startup, and collaborated with talented people to create{" "}
+              Passionate about empowering{" "}
               <span className="font-medium dark:text-gray-50">
-                digital products
+                churches and businesses
               </span>{" "}
-              for both business and consumer use.
+              with innovative digital solutions. My approach is{" "}
+              <span className="font-medium dark:text-gray-50">
+                deeply collaborative;
+              </span>{" "}
+              I work closely with leaders to turn their visions into digital
+              experiences that truly resonate.
             </p>
             <div className="mt-12 space-y-12"></div>
           </div>
@@ -80,7 +77,7 @@ export default function About() {
               Skills
             </p>
             <div className="flex flex-wrap space-y-2 space-x-3 border-t border-dashed dark:border-gray-400">
-            {/* Added a JSON format for the skills so it can respresent better fetching data from API */}
+              {/* Added a JSON format for the skills so it can respresent better fetching data from API */}
               {SKILLS.map((item) => (
                 <a
                   key={item}
