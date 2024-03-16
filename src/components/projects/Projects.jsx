@@ -78,14 +78,14 @@ export default function Projects() {
             ))}
         </div>
         <div className="space-y-2 text-center">
-          <button className="inline-flex items-center px-6 py-3 rounded-lg dark:bg-violet-500 dark:text-gray-900">
+          <button className="inline-flex items-center px-6 py-3 rounded-lg dark:bg-white dark:text-gray-900">
             <span className="flex flex-col items-start ml-4 leading-none">
               <a
                 href="https://www.canva.com/design/DAFhEA8t9KA/BJ6T2NAtY-bU1sDw9alprA/view?utm_content=DAFhEA8t9KA&utm_campaign=designshare&utm_medium=link&utm_source=editor#13"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="text-lg font-semibold rounded dark:bg-white dark:text-gray-900">
+                <span className="text-lg font-semibold rounded dark:text-gray-900">
                   See More Portfolio Projects
                 </span>
               </a>
