@@ -96,7 +96,7 @@
       "title": "Crossexamined.org",
       "img": "https://i.ibb.co/9sw8qz9/7.png",
       "desc": "Website Management and Social Media",
-      "stacks": ["Wordpress", "Divi", "Yoast SEO", "WP Plugins", "Subsplash"]
+      "stacks": ["Wordpress", "Divi", "Yoast SEO", "Subsplash"]
     },
     {
       "id": 8,
@@ -112,7 +112,7 @@
       "title": "Saron Granite",
       "img": "https://i.ibb.co/2vhJkrw/9.png",
       "desc": "Website Design",
-      "stacks": ["Wordpress", "Divi", "GoDaddy"]
+      "stacks": ["Wordpress", "Divi", "GoDaddy", "Cloudfare"]
     },
     {
       "id": 10,
@@ -134,12 +134,7 @@
       "title": "Hamburger Party Rentals",
       "img": "https://i.ibb.co/HqPDsMG/11.png",
       "desc": "Website Design",
-      "stacks": [
-        "Squarespace 7.0",
-        "E-commerce",
-        "GoDaddy",
-        "Responsive Design"
-      ]
+      "stacks": ["Squarespace 7.0", "E-commerce", "GoDaddy"]
     },
     {
       "id": 12,
@@ -147,15 +142,7 @@
       "title": "Coaching Academy",
       "img": "https://i.ibb.co/7WL2MVp/12.png",
       "desc": "E-learning Platform for Mastermind.com",
-      "stacks": [
-        "React",
-        "Next.js",
-        "Node.js",
-        "JavaScript",
-        "MySQL",
-        "API",
-        "Git"
-      ]
+      "stacks": ["React", "Tailwind CSS", "JavaScript", "MySQL"]
     }
   ]
 }
