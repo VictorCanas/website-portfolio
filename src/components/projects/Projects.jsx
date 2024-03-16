@@ -78,32 +78,15 @@ export default function Projects() {
             ))}
         </div>
         <div className="space-y-2 text-center">
-          <h2 className="text-5xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50 pb-8">
-            See More Portfolio Projects
-          </h2>
           <button className="inline-flex items-center px-6 py-3 rounded-lg dark:bg-violet-500 dark:text-gray-900">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"
-              />
-            </svg>
             <span className="flex flex-col items-start ml-4 leading-none">
               <a
-                href="Victor_WebDesigner_Resume.pdf"
+                href="https://www.canva.com/design/DAFhEA8t9KA/BJ6T2NAtY-bU1sDw9alprA/view?utm_content=DAFhEA8t9KA&utm_campaign=designshare&utm_medium=link&utm_source=editor#13"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <span className="text-lg font-semibold rounded dark:bg-violet-500 dark:text-gray-900">
-                  Resume
+                <span className="text-lg font-semibold rounded dark:bg-white dark:text-gray-900">
+                  See More Portfolio Projects
                 </span>
               </a>
             </span>
