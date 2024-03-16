@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 //useSWR allows the use of SWR inside function components
-import useSWR from 'swr';
+import useSWR from "swr";
 
 //Write a fetcher function to wrap the native fetch function and return the result of a call to url in json format
 const fetcher = (url) => fetch(url).then((res) => res.json());
-// Condense code to add a json format for projects 
+// Condense code to add a json format for projects
 
 export default function Projects() {
   //Set up SWR to run the fetcher function when calling "/api/staticdata"
   //There are 3 possible states: (1) loading when data is null (2) ready when the data is returned (3) error when there was an error fetching the data
-  const { data, error } = useSWR('/api/projects', fetcher);
+  const { data, error } = useSWR("/api/projects", fetcher);
 
   //Handle the error state
   if (error) return <div>Failed to load</div>;
@@ -29,52 +29,58 @@ export default function Projects() {
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
-          {data.projects && data.projects.map((item) => (
-            <article
-              key={item.id}
-              className="flex flex-col rounded-lg dark:bg-gray-900"
-            >
-              <a
-                rel="noopener noreferrer"
-                href={item.href}
-                target="_blank"
-                title={item.title}
+          {data.projects &&
+            data.projects.map((item) => (
+              <article
+                key={item.id}
+                className="flex flex-col rounded-lg dark:bg-gray-900"
               >
-                <img
-                  alt=""
-                  className="object-cover w-full rounded h-52 dark:bg-gray-500"
-                  src={item.img}
-                />
-              </a>
-              <div className="flex flex-col flex-1 p-6">
                 <a
                   rel="noopener noreferrer"
                   href={item.href}
                   target="_blank"
                   title={item.title}
-                ></a>
-                <a
-                  rel="noopener noreferrer"
-                  href={item.href}
-                  target="_blank"
-                  title={item.title}
-                  className="text-xs tracking-wider uppercase hover:underline dark:text-violet-400"
                 >
-                  {item.title}
+                  <img
+                    alt=""
+                    className="object-cover w-full rounded h-52 dark:bg-gray-500"
+                    src={item.img}
+                  />
                 </a>
-                <h3 className="flex-1 py-2 text-lg font-semibold dark:text-gray-50 leading-snug">
-                  {item.desc}
-                </h3>
-                <div className="card-actions">
-                  {item.stacks.map((stack) => (
-                    <div key={stack} className="badge badge-outline">
-                      {stack}
-                    </div>
-                  ))}
+                <div className="flex flex-col flex-1 p-6">
+                  <a
+                    rel="noopener noreferrer"
+                    href={item.href}
+                    target="_blank"
+                    title={item.title}
+                  ></a>
+                  <a
+                    rel="noopener noreferrer"
+                    href={item.href}
+                    target="_blank"
+                    title={item.title}
+                    className="text-xs tracking-wider uppercase hover:underline dark:text-violet-400"
+                  >
+                    {item.title}
+                  </a>
+                  <h3 className="flex-1 py-2 text-lg font-semibold dark:text-gray-50 leading-snug">
+                    {item.desc}
+                  </h3>
+                  <div className="card-actions">
+                    {item.stacks.map((stack) => (
+                      <div key={stack} className="badge badge-outline">
+                        {stack}
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            </article>
-          ))}
+              </article>
+            ))}
+        </div>
+        <div className="space-y-2 text-center">
+          <h2 className="text-5xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-50 pb-8">
+            See More Portfolio Projects
+          </h2>
         </div>
       </div>
     </section>
